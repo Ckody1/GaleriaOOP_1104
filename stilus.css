@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    max-width: 800px;
+    margin:auto;
+}
+img{
+    width:100%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 80px auto 80px;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
